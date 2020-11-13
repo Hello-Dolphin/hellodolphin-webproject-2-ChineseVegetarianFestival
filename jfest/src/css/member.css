@@ -1,0 +1,14 @@
+@font-face { font-family: 'lyf_mulanbook';
+    src: url('lyf_mulan-webfont.woff2') format('woff2'),
+         url('lyf_mulan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .Member {
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 144pt;
+    font-family:'lyf_mulanbook' ;
+    background-color: #f1f1f1;
+  }

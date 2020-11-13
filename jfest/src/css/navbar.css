@@ -1,0 +1,24 @@
+@font-face { font-family: 'lyf_mulanbook';
+    src: url('lyf_mulan-webfont.woff2') format('woff2'),
+         url('lyf_mulan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .navbar{
+      background-color: #FFF3DB;
+      width: 100%;
+      position: fixed;
+  }
+  .navBar{
+     padding: 12pt;
+     
+  }
+
+  .nav-link{ font-size: 36pt;
+    font-family: 'lyf_mulanbook';
+    color: black;
+
+}
+.nav-link:hover{
+    background-color: #e6dcc6;
+}

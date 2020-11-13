@@ -1,0 +1,15 @@
+@font-face { font-family: 'lyf_mulanbook';
+    src: url('lyf_mulan-webfont.woff2') format('woff2'),
+         url('lyf_mulan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .Story {
+    -webkit-text-stroke:3px #8A2424;
+    text-align: center;
+    color: white;
+    font-size: 144pt;
+    font-family:'lyf_mulanbook' ;
+    background-color: #cda062;
+  }
+  
