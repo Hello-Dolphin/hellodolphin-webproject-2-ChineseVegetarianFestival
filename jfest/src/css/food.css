@@ -4,11 +4,17 @@
     font-weight: normal;
     font-style: normal;
   }
+  .foodtopic{
+    color: #842424;
+    font-size: 144pt;
+    background-size: 56%;
+    background-repeat: no-repeat;
+    font-family:'lyf_mulanbook' ;
+    background-position: center;
+    text-align: center;
+    background-image:url(../image/Food\ Frame.png);
+  }
   .Food {
     margin: 0;
-    text-align: center;
-    color: black;
-    font-size: 144pt;
-    font-family:'lyf_mulanbook' ;
     background-color: #FFF3DB;
   }

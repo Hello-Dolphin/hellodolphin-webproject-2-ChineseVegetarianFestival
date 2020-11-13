@@ -4,20 +4,17 @@
     font-weight: normal;
     font-style: normal;
   }
-  .navbar{
-      background-color: #FFF3DB;
-      width: 100%;
-      position: fixed;
-  }
-  .navBar{
-     padding: 12pt;
-     
+
+  .hello{
+    background-color: #FFF3DB;
+    position: sticky;
   }
 
-  .nav-link{ font-size: 36pt;
+  .nav-link{ font-size: 32pt;
     font-family: 'lyf_mulanbook';
     color: black;
-
+    
+    
 }
 .nav-link:hover{
     background-color: #e6dcc6;

@@ -3,7 +3,7 @@ import '../css/food.css';
 function Food() {
   return (
     <div className="Food">
-      <div> <p>FOOD</p> </div>
+      <div className="foodtopic"> FOOD </div>
     </div>
   );
 }

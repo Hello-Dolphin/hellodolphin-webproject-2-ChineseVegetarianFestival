@@ -4,6 +4,21 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'cloudlight';
+    src: url('cloud-light-webfont.woff2') format('woff2'),
+         url('cloud-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'fc_activelight';
+    src: url('fc_active_light-webfont.woff2') format('woff2'),
+         url('fc_active_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }  
   .Reason {
     text-align: center;
     color: #842424;
@@ -11,4 +26,25 @@
     font-family:'lyf_mulanbook' ;
     background-color: #FFF3DB;
   }
+  .reasontp{
+    text-shadow : 3px 3px 6px #000000;
+  }
+  .font{
+     font-family: 'fc_activelight';
+    color: black;
+    
+
+  }
+  .reason{
+      margin: auto;
+      background-position-x: center;
+      background-size: 75% 75%   ;
+      background-image: url(../image/Food\ Frame.png);
+      background-repeat: no-repeat;
+      background-position:center;
+      font-size: 36pt;
+      text-align: center;
+      
+    }
+   
   

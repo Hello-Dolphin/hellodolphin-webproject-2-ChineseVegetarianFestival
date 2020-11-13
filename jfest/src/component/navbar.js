@@ -6,14 +6,24 @@ import '../css/navbar.css';
 export default function Navbar() {
     return (
         <div>
-            <nav class="navbar">
-                    <a class="navbar-brand" href="#"><img src={Logo} style={{width:40}}/></a>
-                    <a class="nav-link" href="#" >HOME <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">STORY <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">FOOD <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">MEMBER <span class="sr-only">(current)</span></a>
-            </nav>
+            <div className="hello">
+            <ul class="nav justify-content-end">
+            <li class="mr-auto"> <img src={Logo} width='40pt' /> </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">STORY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FOOD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MEMBER</a>
+                </li>
+            </ul>
+            </div>
         </div>
     )
 }
-
+{/* <span class="sr-only">(current)</span> */ }
