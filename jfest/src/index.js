@@ -5,9 +5,10 @@ import App from './component/App';
 import Story from './component/story';
 import Reason from './component/reason';
 import Food from './component/food';
-import Member from './component/member';
+import Color from './component/color';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './component/navbar';
+import Mascot from './component/mascot';
 
 
 ReactDOM.render(
@@ -18,7 +19,8 @@ ReactDOM.render(
     <Story />
     <Reason />
     <Food />
-    <Member />
+    <Color />
+    <Mascot />
   
     
 

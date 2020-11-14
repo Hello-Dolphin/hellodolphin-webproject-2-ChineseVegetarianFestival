@@ -1,0 +1,42 @@
+@font-face { font-family: 'lyf_mulanbook';
+    src: url('lyf_mulan-webfont.woff2') format('woff2'),
+         url('lyf_mulan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'cloudlight';
+    src: url('cloud-light-webfont.woff2') format('woff2'),
+         url('cloud-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'fc_activelight';
+    src: url('fc_active_light-webfont.woff2') format('woff2'),
+         url('fc_active_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+.invite{
+  margin-top: 24pt;
+  padding: 10pt;
+  background-image: url(../image/Food\ Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300pt;
+    font-size: 52pt;
+    font-family: 'fc_activelight';
+}
+.Mascot{
+ margin-top: 0;
+    padding-top:20pt;
+    padding-bottom: 250pt;
+    text-align: center;
+    background-color: #cda062;
+    background-image: url(../image/storybg.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

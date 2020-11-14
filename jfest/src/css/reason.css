@@ -25,6 +25,7 @@
     font-size: 144pt;
     font-family:'lyf_mulanbook' ;
     background-color: #FFF3DB;
+    padding-bottom: 100pt;
   }
   .reasontp{
     text-shadow : 3px 3px 6px #000000;
@@ -32,19 +33,19 @@
   .font{
      font-family: 'fc_activelight';
     color: black;
+    font-size: 28pt;
     
 
   }
   .reason{
-      margin: auto;
+      margin: 0;
       background-position-x: center;
-      background-size: 75% 75%   ;
+      background-size: 700pt;
       background-image: url(../image/Food\ Frame.png);
       background-repeat: no-repeat;
       background-position:center;
-      font-size: 36pt;
       text-align: center;
-      
+     
     }
    
   

@@ -9,6 +9,9 @@
     background-color: #FFF3DB;
     position: sticky;
   }
+  ul{
+    position: sticky;
+  }
 
   .nav-link{ font-size: 32pt;
     font-family: 'lyf_mulanbook';
@@ -18,4 +21,7 @@
 }
 .nav-link:hover{
     background-color: #e6dcc6;
+}
+.navbar-brand{
+  margin-top: -30pt ;
 }

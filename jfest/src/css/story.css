@@ -21,6 +21,7 @@
 
 }
 .topic{
+  text-shadow : 3px 3px 6px #000000;
   padding-top: 4%;
 -webkit-text-stroke:3px #8A2424;
 text-align: center;
@@ -41,8 +42,14 @@ h6{
   font-size: 28pt;
 }
 .Story {
+  padding-bottom:450pt;
   background-color: #cda062;
   margin: 0%;
+  background-image: url(../image/storybg1.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  
 }
 .Content{
   

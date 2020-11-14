@@ -4,7 +4,52 @@
     font-weight: normal;
     font-style: normal;
   }
+@font-face {
+    font-family: 'cloudlight';
+    src: url('cloud-light-webfont.woff2') format('woff2'),
+         url('cloud-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  p{ 
+    font-family: 'fc_activelight';
+    color: black;
+    font-size: 28pt;
+  }
+  .mushroom img{
+    margin-left: 30pt;
+    margin-right: 30pt;
+  }
+  .tofu img{
+    margin-left: 30pt;
+    margin-right: 30pt;
+  }
+  .noodle img{
+    margin-left: 30pt;
+    margin-right: 30pt;
+  }
+  .cabage img{
+    margin-left: 30pt;
+    margin-right: 30pt;
+  }
+  .thishover:hover{
+    box-shadow : 3px 3px 10px #000000;
+
+  }
+  
+  .foodpic{
+    justify-content: center;
+    align-items: center;
+    position: center;
+    text-align: center;
+    display : flex;
+    
+  }
   .foodtopic{
+    margin-bottom : 52pt;
+    text-shadow : 3px 3px 6px #000000;
     color: #842424;
     font-size: 144pt;
     background-size: 56%;
@@ -14,7 +59,36 @@
     text-align: center;
     background-image:url(../image/Food\ Frame.png);
   }
+  .fontcontent{
+   
+    font-family: 'cloudlight';
+    font-size: 28pt;
+  }
+  .arrow img{ 
+    margin-top : 18pt;
+    margin-bottom : 52pt;
+    animation: bounce 0.8s; 
+    animation-direction: alternate; 
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5); 
+    animation-iteration-count: infinite; 
+} 
+  
+@keyframes bounce { 
+    from { 
+        transform: translate3d(0, 0, 0); 
+    } 
+    to { 
+        transform: translate3d(0, 50px, 0); 
+    } 
+} 
+
   .Food {
+    background-image: url(../image/moon.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 0;
     background-color: #FFF3DB;
+    text-align: center;
+    padding-bottom: 300pt;
   }

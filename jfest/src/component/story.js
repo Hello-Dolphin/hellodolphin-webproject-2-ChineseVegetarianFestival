@@ -1,9 +1,12 @@
 import '../css/story.css';
-
+import wind from '../image/wind.png'
 
 function Story() {
   return (
     <div className="Story">
+      <div className ="wind">
+      <img src={wind} width="250px"/>
+      </div>
        <p className="topic">STORY</p> 
       <div className="StoryFrame">
         <div className="Content">

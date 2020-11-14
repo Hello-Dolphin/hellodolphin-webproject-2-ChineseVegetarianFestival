@@ -3,27 +3,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../image/Navlogo.png';
 import '../css/navbar.css';
 
-export default function Navbar() {
+function Navbar() {
     return (
-        <div>
-            <div className="hello">
-            <ul class="nav justify-content-end">
-            <li class="mr-auto"> <img src={Logo} width='40pt' /> </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">STORY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">FOOD</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MEMBER</a>
-                </li>
-            </ul>
-            </div>
+<div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="#"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="new navbar-nav navbar-right">
+                    <li class="active"><a hreg="#">home</a></li>
+                        <li class="active"><a href="#">Story</a></li>
+                        <li class="active"><a href="#">FOOD</a></li>
+                        <li class="active"><a href="#">COLOR</a></li>
+                    </ul>
+                    </div>
+                </div>
+        </nav>
         </div>
-    )
-}
-{/* <span class="sr-only">(current)</span> */ }
+        );
+    }
+    export default Navbar;
+    
+    
+        
+        
