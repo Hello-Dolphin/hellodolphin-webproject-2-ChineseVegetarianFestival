@@ -20,15 +20,28 @@
   font-style: normal;
 
 }
+@font-face {
+  font-family: 'fc_activeregular';
+  src: url('fc_active_regular-webfont.woff2') format('woff2'),
+       url('fc_active_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 .topic{
   text-shadow : 3px 3px 6px #000000;
-  padding-top: 4%;
+  
 -webkit-text-stroke:3px #8A2424;
 text-align: center;
 color: white;
 font-size: 144pt;
 font-family:'lyf_mulanbook' ;
-
+}
+.thaitopic{
+  font-size: 44pt;
+  color: #8A2424;
+  font-family: 'fc_activeregular';
+  text-align: center;
 }
 h6{
   font-family: 'fc_activelight';
@@ -42,7 +55,7 @@ h6{
   font-size: 28pt;
 }
 .Story {
-  padding-bottom:450pt;
+  padding-bottom:700pt;
   background-color: #cda062;
   margin: 0%;
   background-image: url(../image/storybg1.png);
@@ -50,6 +63,9 @@ h6{
     background-size: 100%;
     background-repeat: no-repeat;
   
+}
+.windflex{
+  display: inline;
 }
 .Content{
   
@@ -64,9 +80,8 @@ h6{
   background-position: fixed;
 }
 
-/* .StoryFrame{
-  background-size: 75% auto;
-  background-image: url(../image/StoryFrame.png);
-  background-repeat: no-repeat;
-  background-position:center;
-} */
+
+ 
+
+   
+ 

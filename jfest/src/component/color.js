@@ -1,6 +1,7 @@
 import '../css/color.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import latern from '../image/latern.png';
+import wind from '../image/windcolor.png'
 
 function Color() {
   return (
@@ -19,7 +20,8 @@ function Color() {
       <img src={latern} width='50pt' />
       </div>
       <div className="move">
-      <div className="colortp"> COLOR </div>
+      <p className="colortp"> COLOR </p>
+      <p className="colorthtp">- สีที่เกี่ยวข้อง -</p>
       <div className="color">
         <h6 className="cfont" ><div className="redsquare"></div> <p><b>สีแดง</b> เป็นสีที่ชาวจีนเชื่อว่าเป็นสีศิริมงคล ดังจะเห็นได้ว่า<br></br>ในงานมงคลต่างๆ ของคนจีนไม่ว่าจะเป็นงานแต่ง วันตรุษจีน</p>
 </h6></div>
@@ -30,6 +32,11 @@ function Color() {
         <h6 className="cfont" ><div className="whitesquare"></div><p><b>สีขาว</b> ตามธรรมเนียมจีนสีขาวคือสีในการไว้ทุกข์
       <br></br>ถ้าท่านสังเกตในพิธีงานศพของจีนจะมีลูกหลานแต่งชุดสีขาวอยู่</p></h6></div>
     </div>
+
+    <div>
+       <img src={wind} className="w6" alt="wind"/>
+            </div>
+
     </div>
   );
 }

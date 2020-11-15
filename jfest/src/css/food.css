@@ -1,17 +1,33 @@
 @font-face { font-family: 'lyf_mulanbook';
-    src: url('lyf_mulan-webfont.woff2') format('woff2'),
-         url('lyf_mulan-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  src: url('lyf_mulan-webfont.woff2') format('woff2'),
+       url('lyf_mulan-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'cloudlight';
-    src: url('cloud-light-webfont.woff2') format('woff2'),
-         url('cloud-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  
-  }
+  font-family: 'fc_activelight';
+  src: url('fc_active_light-webfont.woff2') format('woff2'),
+       url('fc_active_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'cloudlight';
+  src: url('cloud-light-webfont.woff2') format('woff2'),
+       url('cloud-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'fc_activeregular';
+  src: url('fc_active_regular-webfont.woff2') format('woff2'),
+       url('fc_active_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
   
   p{ 
     font-family: 'fc_activelight';
@@ -69,7 +85,7 @@
     margin-bottom : 52pt;
     animation: bounce 0.8s; 
     animation-direction: alternate; 
-    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5); 
+    animation-timing-function: cubic-bezier(.10, 0.05, 1, .5); 
     animation-iteration-count: infinite; 
 } 
   

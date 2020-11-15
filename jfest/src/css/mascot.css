@@ -1,39 +1,59 @@
 @font-face { font-family: 'lyf_mulanbook';
-    src: url('lyf_mulan-webfont.woff2') format('woff2'),
-         url('lyf_mulan-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'cloudlight';
-    src: url('cloud-light-webfont.woff2') format('woff2'),
-         url('cloud-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  
-  }
-  @font-face {
-    font-family: 'fc_activelight';
-    src: url('fc_active_light-webfont.woff2') format('woff2'),
-         url('fc_active_light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  src: url('lyf_mulan-webfont.woff2') format('woff2'),
+       url('lyf_mulan-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fc_activelight';
+  src: url('fc_active_light-webfont.woff2') format('woff2'),
+       url('fc_active_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'cloudlight';
+  src: url('cloud-light-webfont.woff2') format('woff2'),
+       url('cloud-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'fc_activeregular';
+  src: url('fc_active_regular-webfont.woff2') format('woff2'),
+       url('fc_active_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 .invite{
-  margin-top: 24pt;
-  padding: 10pt;
+  margin-top: 60pt;
+  padding: 25pt;
   background-image: url(../image/Food\ Frame.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 300pt;
-    font-size: 52pt;
+    background-size: contain;
+    font-size: 40pt;
     font-family: 'fc_activelight';
+}
+.cloud5 img{
+  position : absolute;
+  right:200px;
+  left: -200px;
+}
+.cloud6 img{
+  position : relative;
+  left:900px;
+  
+}
+.props{
+  text-align: center;
 }
 .Mascot{
  margin-top: 0;
-    padding-top:20pt;
-    padding-bottom: 250pt;
-    text-align: center;
+    padding-bottom: 360pt;
     background-color: #cda062;
     background-image: url(../image/storybg.png);
     background-position: bottom;

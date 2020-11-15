@@ -1,24 +1,33 @@
 @font-face { font-family: 'lyf_mulanbook';
-    src: url('lyf_mulan-webfont.woff2') format('woff2'),
-         url('lyf_mulan-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'cloudlight';
-    src: url('cloud-light-webfont.woff2') format('woff2'),
-         url('cloud-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  
-  }
-  @font-face {
-    font-family: 'fc_activelight';
-    src: url('fc_active_light-webfont.woff2') format('woff2'),
-         url('fc_active_light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }  
+  src: url('lyf_mulan-webfont.woff2') format('woff2'),
+       url('lyf_mulan-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fc_activelight';
+  src: url('fc_active_light-webfont.woff2') format('woff2'),
+       url('fc_active_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'cloudlight';
+  src: url('cloud-light-webfont.woff2') format('woff2'),
+       url('cloud-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'fc_activeregular';
+  src: url('fc_active_regular-webfont.woff2') format('woff2'),
+       url('fc_active_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
   .Reason {
     text-align: center;
     color: #842424;
@@ -35,7 +44,6 @@
     color: black;
     font-size: 28pt;
     
-
   }
   .reason{
       margin: 0;
@@ -47,5 +55,5 @@
       text-align: center;
      
     }
-   
+    
   

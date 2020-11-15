@@ -11,6 +11,7 @@ import Navbar from './component/navbar';
 import Mascot from './component/mascot';
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     
