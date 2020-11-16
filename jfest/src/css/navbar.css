@@ -28,12 +28,37 @@
   font-style: normal;
 
 }
-.navbar{
+.navbar img{
+  
+  margin-right:600pt;
+}
+.nav-item:hover{
+  color: #D45B46;
+}
+nav{
   background-color: #fff3db;
-
+  position: fixed;
 }
 
+li:active{
+color:black;
+}
 li{
+  padding-left:20pt;
+  color: black;
+  font-family: 'lyf_mulanbook';
+  font-size: 28pt;
   display:inline;
+  position: sticky;
+}
 
+#navbarNav > #gin-j  {
+  /* color: purple; */
+  position: absolute;
+  left: 3%;
+}
+.nav-fixed{
+  position:fixed;
+  z-index: 1;
+  width:100vw;
 }

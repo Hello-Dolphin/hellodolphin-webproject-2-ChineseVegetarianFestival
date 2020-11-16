@@ -21,7 +21,7 @@ function App() {
                 <img src={wind1} className="w2" alt="wind" />
             </div>
 
-      <div className="jfest"> <p className="jtopic">เทศกาล</p>
+      <div className="jfest" id="Home"> <p className="jtopic">เทศกาล</p>
       
         <div className="img"><img src={logo} alt="cloud" width='438pt' />
         </div>

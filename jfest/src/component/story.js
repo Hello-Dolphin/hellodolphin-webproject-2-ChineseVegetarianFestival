@@ -11,7 +11,7 @@ function Story() {
         <img src={cloud} className="a3" alt="Clound" />
       </div>
      
-      <p className="topic">STORY</p>
+      <p className="topic" id="Story">STORY</p>
       <p className="thaitopic">- เรื่องราวความเป็นมา -</p>
       
       <div className="StoryFrame">

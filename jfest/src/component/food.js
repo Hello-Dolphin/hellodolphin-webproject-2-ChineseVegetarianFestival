@@ -30,7 +30,7 @@ Changenoodle=()=>{
 render(){
     return (
       <div className="Food">
-        <div className="foodtopic">FOOD</div>
+        <div className="foodtopic" id="Food">FOOD</div>
         <div className="foodpic">
         <div className="mushroom"><img src={mushroom} width='250pt'onClick={this.Changemushroom} className="thishover"/>
         <div className="arrow"><img src={arrow} width='50pt'/></div></div>
@@ -49,6 +49,9 @@ render(){
 
       <div className="M">
         <img src={cloud} className="a7" alt="Clound" />
+      </div>
+      <div className="SM">
+        <img src={wind} className="w11" alt="wind" />
       </div>
 
       </div>

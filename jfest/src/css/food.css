@@ -98,6 +98,7 @@
     } 
 } 
 
+
   .Food {
     background-image: url(../image/moon.png);
     background-position: bottom;
@@ -107,4 +108,12 @@
     background-color: #FFF3DB;
     text-align: center;
     padding-bottom: 300pt;
+  }
+  .w11{
+    position: absolute;
+    top: 3800pt;
+    left: 1000;
+  }
+  .SM img{
+    width: 350px;
   }

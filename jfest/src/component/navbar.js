@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../image/Navlogo.png';
 import '../css/navbar.css';
@@ -6,31 +7,37 @@ import App from '../component/App';
 import Story from '../component/story';
 import Food from '../component/food';
 import Color from '../component/color';
+var Scroll = require('react-scroll');
 
 class Navbar extends Component{
-    render(){
+    render(){ 
     return (
-<div className="navbar navbar-default nav-fixed-top">
-<nav class="navbar navbar-default">
-    <div class="container-fluid"></div>
-  <a class="navbar-brand" href="#">
-
-     <ul class="nav navbar-nav">
-         <li><img src={Logo} width="30" alt=""/></li>
-        </ul>
-        <div class="nav navbar-nav navbar-right" id="">
-        <ul>
-      <li class="active"><a href={Story}>Home</a></li>
-      <li><a href={App}>Home</a></li>
-      <li><a href={Story}>Story</a></li>
-      <li><a href={Food}>Food</a></li>
-      <li><a href={Color}>Color</a></li>
+    <div class="nav-fixed"> 
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="collapse navbar-collapse" id="navbarNav">
+  <img src={Logo} width='50pt'/>
+    <li class="nav-item active" id="gin-j">Gin J</li>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Story">Story</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Reason">Reason</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Food">Food</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Color">Color</a>
+      </li>
     </ul>
-     </div>
-  </a>
- 
- 
-     
 </nav>
 </div>
       

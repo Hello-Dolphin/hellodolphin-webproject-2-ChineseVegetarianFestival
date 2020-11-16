@@ -7,7 +7,7 @@ import cloud from '../image/cloud.png'
 function Reason() {
   return (
     <div className="Reason">
-      <div className="reasontp"> เหตุผลที่ควรกินเจ </div>
+      <div className="reasontp" id="Reason"> เหตุผลที่ควรกินเจ </div>
       <div className="reason">
       <h6 className="font" >1. กินเพื่อสุขภาพอาหารเจเป็นอาหารประเภทชีวจิต<br></br>
 สามารถขับพิษของเสียต่าง ๆออกจากร่างกายได้, ปรับระบบไหลเวียนโลหิต

@@ -60,13 +60,13 @@
 
 .a1{
   position: absolute;
-  top: 200px;left: 0px;right: 0px;bottom: 0px;
+  top: 170px;left: 0px;right: 0px;bottom: 0px;
   margin: 0 auto;
   animation: Cloud1 40s linear infinite;
 }
 .a2{
   position: absolute;
-  top: 330px;left: 0px;right: 0px;bottom: 0px;
+  top: 280px;left: 0px;right: 0px;bottom: 0px;
   margin: 0 auto;
   animation: Cloud27 15s linear infinite;
 }
@@ -108,7 +108,7 @@
 }
 .a9{
   position: absolute;
-  top: 7500px;left: 0px;right: 0px;bottom: 0px;
+  top: 7400px;left: 0px;right: 0px;bottom: 0px;
   margin: 0 auto;
   animation: Cloud4569 30s linear infinite;
 }
